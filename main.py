@@ -127,6 +127,9 @@ def manage_scraping(driver):
         else:
             print("Comando non valido. Riprova.")
 
+if __name__ == "__main__":
+    main()
+
 # Funzione principale
 def main():
     load_dotenv()
@@ -148,5 +151,4 @@ def main():
     finally:
         driver.quit()
 
-if __name__ == "__main__":
-    main()
+
